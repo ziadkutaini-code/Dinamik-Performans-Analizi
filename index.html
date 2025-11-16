@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Dinamik Performans Analizi</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+
+<header>Dinamik Performans Analizi</header>
+
+<div class="container">
+  <div class="geometric" aria-hidden="true"></div>
+
+  <div class="grid">
+    <div>
+      <h2>İlk sınav notu</h2>
+<table id="previousTable">
+  <thead>
+    <tr>
+      <th>Ders</th>
+      <th>Doğru</th>
+      <th>Yanlış</th>
+      <th>Boş</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+    </div>
+
+    <div>
+      <h2>ikinci Sınav notu</h2>
+      <table id="inputTable">
+        <thead>
+          <tr>
+            <th>Ders</th>
+            <th>Doğru</th>
+            <th>Yanlış</th>
+            <th>Boş</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div style="display:flex;gap:12px;align-items:center;margin-top:14px;">
+    <button class="btn" id="calcBtn"> Gelişimi Hesapla</button>
+    <button class="btn" id="saveBtn" style="background:var(--blue)">Şuanki notu ilk not olarak say</button>
+  </div>
+
+  <div class="results-wrap">
+    <h2>Sonuç & gelişim</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ders</th>
+          <th>İlk NET</th>
+          <th>İkinci NET</th>
+          <th>Gelişim</th>
+          <th>Yüzdelik gelişim (%)</th>
+        </tr>
+      </thead>
+      <tbody id="resultsBody"></tbody>
+    </table>
+  </div>
+</div>
+
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
